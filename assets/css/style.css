@@ -1,0 +1,103 @@
+
+ * {
+    box-sizing: border-box
+} 
+
+body{
+    background-image: url("C:\Users\young\Desktop\VisualDesign\Basic-Portfolio-Young\assets\images\mike-van-den-bos-di4aHjRPdlU-unsplash.jpg");
+    /*background-color: aquamarine;*/
+    background-color: #cccccc;
+    margin:0px;
+   /* background-repeat: cover;*/
+    margin: auto;
+}
+
+ .header{
+    width: 100%;
+    background-color: white;
+    height: 80px;
+    border-bottom: 2px solid #E8E8E8; 
+}  
+.navbar{
+    margin:auto;
+    overflow: hidden;
+    width:960px;
+    height: 80px;
+    top:0;
+    background-color: white;
+    position: relative;
+    border-bottom: 2px solid #E8E8E8;
+}
+.title{
+    background-color: plum;
+    position:absolute;
+    left:0;
+    top:0;
+    bottom:0;
+    padding: 0px 10px;
+}
+/* -------customizing menu links------------- */
+.navbar a{
+    float: right;
+    display: block;
+    padding: 50px 17px 0px 17px;
+
+}
+
+a:link{
+    text-decoration: none;
+    color: darkslategrey;
+}
+a:hover{
+    color: black;
+}
+.content{
+    
+    margin:30px auto; 
+    width:960px;
+    height:100%;
+    background-color: whitesmoke;
+    padding: 30px 50px;
+    
+    
+}
+.footer {
+    /* position:absolute; */
+    border-top: 6px solid plum;
+    clear: both;
+    width:100%;
+    height:60px;   /* Height of the footer */
+    background: darkgray;
+ }
+.footer > p {
+   text-align: center;
+}
+
+/* ----------------- content page ------------ */
+
+input{
+    width:100%;
+    padding: 10px 0;
+    margin: 10px 0;
+}
+input[type=text]:focus {
+    border: 3px solid #555;
+    border-radius: 70px;
+  }
+textarea{
+    width:100%;
+    height: 75px;
+}
+
+/* --------------- portfolio page ----------------- */
+
+.card{
+    float: left;
+    margin: 10px 15px;
+}
+
+.card img{
+    width: 180px;
+    
+}
+
