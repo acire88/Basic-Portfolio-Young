@@ -1,5 +1,4 @@
-
- * {
+* {
     box-sizing: border-box;
 } 
 
@@ -11,28 +10,22 @@ body{
     margin:-1;
    
 }
+
 body .container{
     width: 960px;
-    height: 100%;
+    height: 800px;
     margin: auto;
-    padding: 0px 45px 30px 45px;
+    padding: 20px 45px 30px 45px;
     margin-bottom: 30px;
     background: #ffffff;
     border: 2px solid #dddddd;
     font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    box-sizing: border-box;
-  
 }
-hr{
-    line-height: 1rem;
-}
-
- .header{
+.header{
     width: 100%;
     background-color: white;
     height: 70px;
     border-bottom: 2px solid #cccccc; 
-    /* margin-top: -30; */
     clear: both;
    
 }  
@@ -43,7 +36,6 @@ hr{
     width:960px;
     height: 70px;
     top:0;
-    margin-bottom: 20px;
     background-color: white;
     position: relative;
     border-bottom: 2px solid #cccccc;
@@ -77,18 +69,6 @@ a:hover{
     color: #4aaaa5;
 }
 
-.bioImg{
-    width: 150px;
-    height: 200px;
-    float: left;
-    padding: 5px 10px 5px 0px;
-}
-
-p{
-    line-height: 1.5em;
-}
-
-/* -----------------footer section---------------- */
 .footer {
   
     position: fixed;
@@ -103,23 +83,38 @@ p{
      
  }
 
-/* ----------------- content page ------------ */
+div.center {
+    position: relative;
+    width: 600px;
+    height: 100%;
+    float: left;
+    box-align: center;
 
-input{
-    width:100%;
-    padding: 10px 0;
-    margin: 10px 0;
-}
-input[type=text]:focus {
-    border: 3px solid #777777;
-    border-radius: 70px;
-  }
-textarea{
-    width:100%;
-    height: 75px;
-}
-.btn{
-    background-color: teal;
+  } 
+
+div.card {
+    position: relative;
+    width: 200px;
+    height: 150px;
+    margin: 15px;
+    float: left;
+  } 
+  
+div.tag {
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    height: 50px;
+    background: #4aaaa5;
+    opacity: 0.9;
     color: white;
-}
+    text-align: center;
+   
+  }
+  
+.gallery{
+    width: 100%;
+    height: 100%;
+  }
+
 
